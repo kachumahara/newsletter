@@ -37,7 +37,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "kachumahar:62775bc6a656ea90afd92b27a1d882ed-us17",
+    auth: "kachumahar:6372a36aca040893f81c1f21321da58a-us17",
   };
 
   const request = https.request(url, options, function (response) {
@@ -62,5 +62,3 @@ app.listen(process.env.PORT || port, function () {
   console.log("App is running on port 3000");
 });
 
-// API KEY
-// 62775bc6a656ea90afd92b27a1d882ed-us17
